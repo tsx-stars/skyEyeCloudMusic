@@ -56,7 +56,20 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {}
+    "rules": {
+      "no-console": "off",
+      "no-debugger": "off",
+      "vue/comment-directive": 0,
+      "no-unused-vars": [
+        0,
+        {
+          "vars": "all",
+          "args": "after-used"
+        }
+      ],
+      "no-invalid-regexp": "off",
+      "@typescript-eslint/no-var-requires": 0
+    }
   },
   "browserslist": [
     "> 1%",

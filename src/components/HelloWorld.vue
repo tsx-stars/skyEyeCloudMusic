@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { Options, Vue } from 'vue-class-component'
 
 @Options({
   props: {
@@ -15,13 +15,13 @@ import { Options, Vue } from "vue-class-component";
   },
 })
 export default class HelloWorld extends Vue {
-  msg!: string;
+  msg!: string
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.t1{
+.t1 {
   width: 370px;
   height: 40px;
   background: blueviolet;
